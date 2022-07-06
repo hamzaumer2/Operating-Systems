@@ -1,5 +1,3 @@
-//HAMZA UMER FAROOQ - 200789
-
 #include <iostream>
 #include <unistd.h>
 #include <sys/wait.h>
