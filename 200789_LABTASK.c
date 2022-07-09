@@ -1,4 +1,4 @@
-//HAMZA UMER FAROOQ
+//HAMZA UMER
 //200789 - BSCS-4-B
 
 #include <iostream>
