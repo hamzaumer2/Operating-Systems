@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#HAMZA UMER FAROOQ - 200789
+#HAMZA UMER - 200789
 #BSCS-4-B  OS_ASSIGNMENT1
 
 #Question 2
