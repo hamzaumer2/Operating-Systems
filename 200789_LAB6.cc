@@ -4,7 +4,7 @@
 #include <sys/wait.h>
 
 
-//HAMZA UMER FAROOQ - 200789 - BSCS4B
+//HAMZA UMER - 200789 - BSCS4B
 //LAB 6
 
 using namespace std;
