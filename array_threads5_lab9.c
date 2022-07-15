@@ -1,12 +1,3 @@
-/*
-*  Video Lecture: 23
-*  Programmer: Arif Butt
-*  Course: System Programming with Linux
-*  array_threads1.c: The main() creates an array of 3 threads
-*  Pass a message to each thread and the thread function displays it
-*  compile: $ gcc array_threads1.c -lpthread
-*  usage: $./a.out
-*/
 #include <sys/types.h>
 #include <linux/unistd.h>
 #include <errno.h>
