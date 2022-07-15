@@ -1,15 +1,3 @@
-/*
-*  Video Lecture: 23
-*  Programmer: Arif Butt
-*  Course: System Programming with Linux
-*  dyn_threads2.c: The main() receives an integer via command line arg
-*  Creates two integer arrays of that size in heap
-*  Get input in the two arrays from user
-*  Create the size number of threads for addition of two location of the arrays
-*  Each thread sum up two numbers and place the sum in third array
-*  compile: $ gcc dyn_threads2.c -lpthread
-*  usage: $./a.out <5>
-*/
 
 #include <pthread.h>
 #include <stdio.h>
