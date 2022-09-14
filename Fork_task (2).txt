@@ -1,0 +1,10 @@
+You need to submit the below task:
+
+A=(a*b)+[(a++)+(a-c)]
+considering your roll num, you need to choice your last 3 characters and assign these 3 values to a b and c (for example 19i-1234). a = 2 b =3 c = 4.
+
+You need to evalaute the above equation based on your roll number you need implement fork process creation. First A will be root and other part would be covered by 3 processes.
+Process 1 will calculate a*b and return result to parent, a++ would be child of parent A and a-c would be child of previous process calculating a++, you need to give result back to the parent and finally calculate the equation.
+
+
+

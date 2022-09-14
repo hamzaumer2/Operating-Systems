@@ -1,0 +1,108 @@
+#HAMZA UMER
+
+echo "DATE IS: "
+date
+
+echo "YOU ARE CURRENTLY IN DIRECTORY: "
+pwd
+
+echo "THE FILES AND FOLDERS IN THE CURRENT DIRECTORY ARE: "
+ls -l
+pause 5
+echo
+echo
+echo "MAKING DIRECTORY PSL"
+mkdir PSL
+
+echo "GOING INTO PSL DIRECTORY!"
+cd PSL
+
+echo "MAKING FILE ISL_UNITED.txt"
+touch IU.txt
+echo "ENTER PLAYER 1: "
+read PLAYER1
+echo "ENTER PLAYER 2: "
+read PLAYER2
+echo "ENTER PLAYER 3: "
+read PLAYER3
+echo "1. $PLAYER1   2. $PLAYER2   3. $PLAYER3" > IU.txt
+
+
+echo "MAKING FILE LHR_QALANDAR.txt"
+touch LQ.txt
+echo "ENTER PLAYER 1: "
+read PLAYER1
+echo "ENTER PLAYER 2: "
+read PLAYER2
+echo "ENTER PLAYER 3: "
+read PLAYER3
+echo "1. $PLAYER1 2. $PLAYER2 3. $PLAYER3" > LQ.txt
+
+
+echo "MAKING FILE PESH_ZALMI.txt"
+touch PZ.txt
+echo "ENTER PLAYER 1: "
+read PLAYER1
+echo "ENTER PLAYER 2: "
+read PLAYER2
+echo "ENTER PLAYER 3: "
+read PLAYER3
+echo "1. $PLAYER1 2. $PLAYER2 3. $PLAYER3" > PZ.txt
+
+
+
+echo "MAKING FILE QUE_GLADIATOR.txt"
+touch QG.txt
+echo "ENTER PLAYER 1: "
+read PLAYER1
+echo "ENTER PLAYER 2: "
+read PLAYER2
+echo "ENTER PLAYER 3: "
+read PLAYER3
+echo "1. $PLAYER1 2. $PLAYER2 3. $PLAYER3" > QG.txt
+
+echo "MAKING FILE KHI_KINGS.txt"
+touch KK.txt
+echo "ENTER PLAYER 1: "
+read PLAYER1
+echo "ENTER PLAYER 2: "
+read PLAYER2
+echo "ENTER PLAYER 3: "
+read PLAYER3
+echo "1. $PLAYER1 2. $PLAYER2 3. $PLAYER3" > KK.txt
+
+
+echo "DISPLAYING ALL TEAMS AND ITS MEMBERS: "
+echo "ISLAMABAD UNITED"
+cat IU.txt
+echo
+echo "LAHORE QALANDARS"
+cat LQ.txt
+echo
+echo "PESHAWAR ZALMI"
+cat PZ.txt
+echo
+echo "QUETTA GLADIATORS"
+cat QG.txt
+echo
+echo "KARACHI KINGS"
+cat KK.txt
+
+echo "ENTER PLAYER NAME TO FIND: "
+read FINDNAME
+grep -R $FINDNAME
+
+echo "MAKING A NEW FILE PIPE.txt"
+touch PIPE.txt
+
+echo "PUTTING MANUAL OF LS IN FILE"
+man ls > PIPE.txt
+
+echo "NUMBER OF LINES, WORDS AND CHARACTERS IN FILE PIPE.txt are: " | wc
+
+
+echo "CHANGING PERMISSIONS OF ALL FILES TO ALLOW"
+chmod 777 *
+
+echo "CHECKING ALL PERMISSIONS"
+ls -l
