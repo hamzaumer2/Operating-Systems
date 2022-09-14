@@ -1,0 +1,38 @@
+
+#include <iostream>
+#include <unistd.h>
+#include <stdio.h>
+#include <sys/wait.h>
+using namespace std;
+
+int main(){
+int a,b,c;
+int n1 = fork();
+
+if (n1 > 0) {
+        cout << "\nParent Process";
+       
+	cout << "\nEnter two Numbers. Pressing Enter After Each: ";
+wait(NULL);	
+cin >> a >> b;
+	if (a>b){
+	cout << "\nFirst Number is greater i.e" << a << " > " << b << endl; }
+	else {
+	cout << "\nSecond Number is greater i.e" << b << " > " << a << endl;}
+    	}
+
+else if (n1 == 0)
+    	{
+       	cout << "\nChild Process";
+        cout << "\tID of Child is: " <<  getpid();
+	cout << "\nEnter Number: ";
+wait(NULL);	
+cin>>c;
+	if (c%2==0){
+	cout << "\nNumber is even" << endl;}
+	else cout << "\nNumber is odd" << endl;
+    	}
+
+
+return 0;
+}

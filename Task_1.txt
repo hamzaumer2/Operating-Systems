@@ -1,0 +1,8 @@
+
+You need to provide two way communication in a child parent relationship where one process will write a message and other will read it. Once the message is read that process should concatenate a acknowlegde message and send back to the process and that process will display it. 
+Example Output:
+Input: Hello I'm Process 1.
+Process 2: Output:
+Output: Message Received "Hello I'm Process 1." //Concatenation and send it to Process 1
+Process 1: Output
+Acknowlegded. 

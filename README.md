@@ -1,2 +1,11 @@
-# Operating-Systems
-Complete Course Dump of Data Structures and Algorithm, Studied in BS Computer Science
+THREADS
+200789
+HAMZA UMER FAROOQ
+LAB 09
+
+3 QUESTIONS
+
+4 FILES
+
+QUESTION 3 Named: Qu3_semicorrect.c HAS SOME ISSUES. IT DOES NOT COMPILE
+I TRIED MAKING THREE THREADS AND PASS DATA BETWEEN THEM BUT FAILED TO DO SO

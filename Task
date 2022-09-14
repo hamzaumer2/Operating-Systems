@@ -1,0 +1,6 @@
+
+
+
+Q1. Write a program using fork() system call to create two child of the same process i.e., Parent P having child process P1 and P2.
+Q2. Write a program using fork() system call to create a hierarchy of 3 process such that P2 is the child of P1 and P1 is the child of P.
+Q3.Write a program that print even and odd in child and two numbers from user check which is greater in parent
